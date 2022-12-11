@@ -23,11 +23,25 @@ body
 
 .sub-container
 {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80vw;
   height: 80vh;
-  background-color:darkcyan;
+  background-color: darkslategray;
+}
+
+.sub-container span
+{
+  font-size: 2.5rem;
+  color : white;
+  font-weight: bolder;
+}
+
+.sub-container button 
+{
+  margin-top : 4rem;
+  padding : 2rem;
 }
 
